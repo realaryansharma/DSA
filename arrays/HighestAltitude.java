@@ -11,7 +11,7 @@ public class HighestAltitude {
         System.out.println("The highest altitude is: " + answer);
     }
 
-    public int largestAltitude(int[] gain) {
+    private int largestAltitude(int[] gain) {
 
         int max=0, curAlt=0;
 
