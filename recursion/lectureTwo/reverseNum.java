@@ -1,3 +1,4 @@
+package lectureOne;
 import java.util.Scanner;
 
 public class reverseNum {
@@ -22,7 +23,6 @@ public class reverseNum {
     static int reverseAnInteger(int num, int placeValue) {
 
         int add;
-
         if(num<1)
             return 0;
         

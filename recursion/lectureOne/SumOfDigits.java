@@ -1,3 +1,4 @@
+package lectureOne;
 import java.util.Scanner;
 
 public class SumOfDigits {
