@@ -1,14 +1,8 @@
-package patterns;
+package basic.patterns;
 
 import java.util.*;
 
-// *****
-// ****
-// ***
-// **
-// *
-
-public class PatternFive {
+public class PatternTwo {
     
     public static void main(String args[]) {
 
@@ -18,13 +12,13 @@ public class PatternFive {
 
         rows = input.nextInt();
 
-        for(int i=0; i<rows; i++) {
+        for(int i=1; i<rows; i++) {
 
-            for(int j=1; j<rows-i; j++) {
+            for(int j=1; j<=i; j++) {
 
                 System.out.print("*");
-                
-            }  
+
+            }
 
             System.out.println();
 

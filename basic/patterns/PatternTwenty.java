@@ -1,4 +1,4 @@
-package patterns;
+package basic.patterns;
 
 public class PatternTwenty {
     public void pattern20(int n) {
