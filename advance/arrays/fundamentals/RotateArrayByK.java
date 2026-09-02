@@ -21,3 +21,8 @@ public class RotateArrayByK {
         
     }    
 }
+//Array Rotation Optimised approach
+//This is brute force, you can make an optimised approach
+//based on the elements you want to rotate, that is one partition of array the other is the pending array
+//reverse both partitions consider them two individual array
+//Once you have two reversed partitions, treat them as a single array and then reverse it. BOOM! O(n) and array rotation is done
