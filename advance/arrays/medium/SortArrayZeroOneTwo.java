@@ -32,3 +32,5 @@ public class SortArrayZeroOneTwo {
 
     }    
 }
+
+// Duth flag solution also pointers where we use three pointers and swap accordingly
