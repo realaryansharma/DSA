@@ -27,3 +27,5 @@ public class MajorityElementThree {
 
     }
 }
+
+//Moores voting algorithm can help you solve this with O(1) extra space
