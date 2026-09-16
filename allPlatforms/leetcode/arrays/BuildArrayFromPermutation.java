@@ -1,4 +1,4 @@
-package allPlatforms.arrays;
+package allPlatforms.leetcode.arrays;
 
 public class BuildArrayFromPermutation {
 
@@ -12,5 +12,5 @@ public class BuildArrayFromPermutation {
         return ans;
 
     }
-    
+
 }

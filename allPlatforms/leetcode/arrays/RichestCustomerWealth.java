@@ -1,6 +1,8 @@
-package allPlatforms.arrays;
+package allPlatforms.leetcode.arrays;
 
 public class RichestCustomerWealth {
+
+    //1672: Richest Customer Wealth
     public int maximumWealth(int[][] accounts) {
 
         int maxSum = accounts[0][0], sum=0;

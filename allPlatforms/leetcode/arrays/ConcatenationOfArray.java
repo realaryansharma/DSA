@@ -1,4 +1,4 @@
-package allPlatforms.arrays;
+package allPlatforms.leetcode.arrays;
 
 public class ConcatenationOfArray {
 
