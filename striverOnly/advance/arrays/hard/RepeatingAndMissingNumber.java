@@ -3,7 +3,9 @@ package advance.arrays.hard;
 import java.util.HashMap;
 
 public class RepeatingAndMissingNumber {
-        public int[] findMissingRepeatingNumbers(int[] nums) {
+
+    //    
+    public int[] findMissingRepeatingNumbers(int[] nums) {
 
         int count, sum=0, expectedSum;
         HashMap <Integer, Integer> frequencyMap = new HashMap<>();
