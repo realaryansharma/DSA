@@ -8,6 +8,12 @@ public class TestMergeSort {
         int[] inputArr = {4, 5, 2, 1, 3};
 
         mergeSort(0, inputArr.length-1, inputArr);
+
+        for(int i=0; i<inputArr.length; i++) {
+
+            System.out.println(inputArr[i]);
+
+        }
         
     }
 
