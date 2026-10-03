@@ -7,13 +7,20 @@ public class TestMergeSort {
         //Dummy array
         int[] inputArr = {4, 5, 2, 1, 3};
 
-        mergeSort(0, inputArr.length-1, inputArr);
+        int start = 0;
+        int end = 3;
 
-        for(int i=0; i<inputArr.length; i++) {
+        int mid = (start + end) / 2;
 
-            System.out.println(inputArr[i]);
+        System.out.println("End: " + mid);
 
-        }
+        // mergeSort(0, inputArr.length-1, inputArr);
+
+        // for(int i=0; i<inputArr.length; i++) {
+
+            // System.out.println(inputArr[i]);
+
+        // }
         
     }
 
