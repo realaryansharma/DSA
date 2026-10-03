@@ -1,4 +1,4 @@
-package advance.binarySearch;
+package advance.binarySearch.fundamentals;
 
 public class SearchTargetInSortedArray {
     public int search(int[] nums, int target) {
